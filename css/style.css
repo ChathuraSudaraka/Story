@@ -34,11 +34,11 @@ body {
   background-image: radial-gradient(
     farthest-side ellipse at 10% 0,
     hsl(281, 31%, 58%),
-    /* Dark blue */ hsl(240, 37%, 29%),
-    /* Darker blue */ hsl(240, 41%, 20%),
-    /* Darkest blue */ hsl(240, 42%, 19%),
-    /* Black blue */ hsl(231, 66%, 16%),
-    /* Dark gray */ hsl(230, 66%, 10%) /* Black gray */
+    hsl(240, 37%, 29%),
+    hsl(240, 41%, 20%),
+    hsl(240, 42%, 19%),
+    hsl(231, 66%, 16%),
+    hsl(230, 66%, 10%)
   );
 }
 #page2 {
@@ -74,6 +74,13 @@ canvas {
   max-width: 100vw;
   max-height: 100vh;
 }
+
+@media only screen and (max-width: 1026px) {
+  canvas {
+    display: none !important;
+  }
+}
+
 #loop {
   display: flex;
   position: absolute;
@@ -96,6 +103,18 @@ canvas {
   color: transparent;
   font-weight: 500;
 }
+/* Mobile Screen Media Query */
+@media only screen and (max-width: 768px) {
+  #loop {
+    font-size: 50px;
+    top: 20%;
+  }
+
+  #loop > h1 {
+    font-size: 50px;
+    animation-duration: 10s;
+  }
+}
 @keyframes anim {
   0% {
     transform: translateX(0%);
@@ -115,15 +134,10 @@ canvas {
   padding: 0px 30px;
 }
 #nav > h3 {
-  /* outline */
-  -webkit-text-stroke: 1px #333;
-  -webkit-text-fill-color: transparent;
-  
-  /* fallback */
-  color: #333;
   font-family: gilroy;
   font-weight: 400;
   font-size: 22px;
+  color: #a1a1a1;
 }
 
 /* Button Start */

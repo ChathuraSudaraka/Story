@@ -70,72 +70,72 @@ window.addEventListener("resize", function () {
 
 function files(index) {
   var data = `
-  ./frames00007.png
-  ./frames00010.png
-  ./frames00013.png
-  ./frames00016.png
-  ./frames00019.png
-  ./frames00022.png
-  ./frames00025.png
-  ./frames00028.png
-  ./frames00031.png
-  ./frames00034.png
-  ./frames00037.png
-  ./frames00040.png
-  ./frames00043.png
-  ./frames00046.png
-  ./frames00049.png
-  ./frames00052.png
-  ./frames00055.png
-  ./frames00058.png
-  ./frames00061.png
-  ./frames00064.png
-  ./frames00067.png
-  ./frames00070.png
-  ./frames00073.png
-  ./frames00076.png
-  ./frames00079.png
-  ./frames00082.png
-  ./frames00085.png
-  ./frames00088.png
-  ./frames00091.png
-  ./frames00094.png
-  ./frames00097.png
-  ./frames00100.png
-  ./frames00103.png
-  ./frames00106.png
-  ./frames00109.png
-  ./frames00112.png
-  ./frames00115.png
-  ./frames00118.png
-  ./frames00121.png
-  ./frames00124.png
-  ./frames00127.png
-  ./frames00130.png
-  ./frames00133.png
-  ./frames00136.png
-  ./frames00139.png
-  ./frames00142.png
-  ./frames00145.png
-  ./frames00148.png
-  ./frames00151.png
-  ./frames00154.png
-  ./frames00157.png
-  ./frames00160.png
-  ./frames00163.png
-  ./frames00166.png
-  ./frames00169.png
-  ./frames00172.png
-  ./frames00175.png
-  ./frames00178.png
-  ./frames00181.png
-  ./frames00184.png
-  ./frames00187.png
-  ./frames00190.png
-  ./frames00193.png
-  ./frames00196.png
-  ./frames00199.png
-  ./frames00202.png
+  Magma-main/frames00007.png
+  Magma-main/frames00010.png
+  Magma-main/frames00013.png
+  Magma-main/frames00016.png
+  Magma-main/frames00019.png
+  Magma-main/frames00022.png
+  Magma-main/frames00025.png
+  Magma-main/frames00028.png
+  Magma-main/frames00031.png
+  Magma-main/frames00034.png
+  Magma-main/frames00037.png
+  Magma-main/frames00040.png
+  Magma-main/frames00043.png
+  Magma-main/frames00046.png
+  Magma-main/frames00049.png
+  Magma-main/frames00052.png
+  Magma-main/frames00055.png
+  Magma-main/frames00058.png
+  Magma-main/frames00061.png
+  Magma-main/frames00064.png
+  Magma-main/frames00067.png
+  Magma-main/frames00070.png
+  Magma-main/frames00073.png
+  Magma-main/frames00076.png
+  Magma-main/frames00079.png
+  Magma-main/frames00082.png
+  Magma-main/frames00085.png
+  Magma-main/frames00088.png
+  Magma-main/frames00091.png
+  Magma-main/frames00094.png
+  Magma-main/frames00097.png
+  Magma-main/frames00100.png
+  Magma-main/frames00103.png
+  Magma-main/frames00106.png
+  Magma-main/frames00109.png
+  Magma-main/frames00112.png
+  Magma-main/frames00115.png
+  Magma-main/frames00118.png
+  Magma-main/frames00121.png
+  Magma-main/frames00124.png
+  Magma-main/frames00127.png
+  Magma-main/frames00130.png
+  Magma-main/frames00133.png
+  Magma-main/frames00136.png
+  Magma-main/frames00139.png
+  Magma-main/frames00142.png
+  Magma-main/frames00145.png
+  Magma-main/frames00148.png
+  Magma-main/frames00151.png
+  Magma-main/frames00154.png
+  Magma-main/frames00157.png
+  Magma-main/frames00160.png
+  Magma-main/frames00163.png
+  Magma-main/frames00166.png
+  Magma-main/frames00169.png
+  Magma-main/frames00172.png
+  Magma-main/frames00175.png
+  Magma-main/frames00178.png
+  Magma-main/frames00181.png
+  Magma-main/frames00184.png
+  Magma-main/frames00187.png
+  Magma-main/frames00190.png
+  Magma-main/frames00193.png
+  Magma-main/frames00196.png
+  Magma-main/frames00199.png
+  Magma-main/frames00202.png
  `;
   return data.split("\n")[index];
 }
@@ -251,73 +251,73 @@ render();
 
 function files(index) {
 var data = `
-./bridges00004.png
-./bridges00007.png
-./bridges00010.png
-./bridges00013.png
-./bridges00016.png
-./bridges00019.png
-./bridges00022.png
-./bridges00025.png
-./bridges00028.png
-./bridges00031.png
-./bridges00034.png
-./bridges00037.png
-./bridges00040.png
-./bridges00043.png
-./bridges00046.png
-./bridges00049.png
-./bridges00052.png
-./bridges00055.png
-./bridges00058.png
-./bridges00061.png
-./bridges00064.png
-./bridges00067.png
-./bridges00070.png
-./bridges00073.png
-./bridges00076.png
-./bridges00079.png
-./bridges00082.png
-./bridges00085.png
-./bridges00088.png
-./bridges00091.png
-./bridges00094.png
-./bridges00097.png
-./bridges00100.png
-./bridges00103.png
-./bridges00106.png
-./bridges00109.png
-./bridges00112.png
-./bridges00115.png
-./bridges00118.png
-./bridges00121.png
-./bridges00124.png
-./bridges00127.png
-./bridges00130.png
-./bridges00133.png
-./bridges00136.png
-./bridges00139.png
-./bridges00142.png
-./bridges00145.png
-./bridges00148.png
-./bridges00151.png
-./bridges00154.png
-./bridges00157.png
-./bridges00160.png
-./bridges00163.png
-./bridges00166.png
-./bridges00169.png
-./bridges00172.png
-./bridges00175.png
-./bridges00178.png
-./bridges00181.png
-./bridges00184.png
-./bridges00187.png
-./bridges00190.png
-./bridges00193.png
-./bridges00196.png
-./bridges00199.png
-./bridges00202.png
+Magma-main/bridges00004.png
+Magma-main/bridges00007.png
+Magma-main/bridges00010.png
+Magma-main/bridges00013.png
+Magma-main/bridges00016.png
+Magma-main/bridges00019.png
+Magma-main/bridges00022.png
+Magma-main/bridges00025.png
+Magma-main/bridges00028.png
+Magma-main/bridges00031.png
+Magma-main/bridges00034.png
+Magma-main/bridges00037.png
+Magma-main/bridges00040.png
+Magma-main/bridges00043.png
+Magma-main/bridges00046.png
+Magma-main/bridges00049.png
+Magma-main/bridges00052.png
+Magma-main/bridges00055.png
+Magma-main/bridges00058.png
+Magma-main/bridges00061.png
+Magma-main/bridges00064.png
+Magma-main/bridges00067.png
+Magma-main/bridges00070.png
+Magma-main/bridges00073.png
+Magma-main/bridges00076.png
+Magma-main/bridges00079.png
+Magma-main/bridges00082.png
+Magma-main/bridges00085.png
+Magma-main/bridges00088.png
+Magma-main/bridges00091.png
+Magma-main/bridges00094.png
+Magma-main/bridges00097.png
+Magma-main/bridges00100.png
+Magma-main/bridges00103.png
+Magma-main/bridges00106.png
+Magma-main/bridges00109.png
+Magma-main/bridges00112.png
+Magma-main/bridges00115.png
+Magma-main/bridges00118.png
+Magma-main/bridges00121.png
+Magma-main/bridges00124.png
+Magma-main/bridges00127.png
+Magma-main/bridges00130.png
+Magma-main/bridges00133.png
+Magma-main/bridges00136.png
+Magma-main/bridges00139.png
+Magma-main/bridges00142.png
+Magma-main/bridges00145.png
+Magma-main/bridges00148.png
+Magma-main/bridges00151.png
+Magma-main/bridges00154.png
+Magma-main/bridges00157.png
+Magma-main/bridges00160.png
+Magma-main/bridges00163.png
+Magma-main/bridges00166.png
+Magma-main/bridges00169.png
+Magma-main/bridges00172.png
+Magma-main/bridges00175.png
+Magma-main/bridges00178.png
+Magma-main/bridges00181.png
+Magma-main/bridges00184.png
+Magma-main/bridges00187.png
+Magma-main/bridges00190.png
+Magma-main/bridges00193.png
+Magma-main/bridges00196.png
+Magma-main/bridges00199.png
+Magma-main/bridges00202.png
 `;
 return data.split("\n")[index];
 }
